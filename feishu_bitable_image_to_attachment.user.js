@@ -1,15 +1,17 @@
 // ==UserScript==
 // @name         飞书多维表格-图片链接转附件
-// @namespace    http://tampermonkey.net/
-// @version      1.5.0
+// @namespace    https://github.com/xlgmuteki3-boop/mutekigm
+// @version      1.5.1
 // @description  在飞书多维表格页面批量将「图片」列 URL 下载并上传为「附件」列图片（支持 UI 配置与本地保存）
-// @author       you
+// @author       xlgmuteki3-boop
 // @match        *://*.feishu.cn/base/*
 // @match        *://*.feishu.cn/wiki/*
 // @grant        GM_xmlhttpRequest
 // @connect      open.feishu.cn
 // @connect      *
 // @run-at       document-idle
+// @downloadURL  https://raw.githubusercontent.com/xlgmuteki3-boop/mutekigm/main/feishu_bitable_image_to_attachment.user.js
+// @updateURL    https://raw.githubusercontent.com/xlgmuteki3-boop/mutekigm/main/feishu_bitable_image_to_attachment.user.js
 // ==/UserScript==
 
 /* eslint-disable no-unused-vars -- 油猴脚本顶层配置与工具函数 */
