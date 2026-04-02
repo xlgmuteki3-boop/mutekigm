@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         飞书多维表格-图片链接转附件
 // @namespace    https://github.com/xlgmuteki3-boop/mutekigm
-// @version      1.5.1
+// @version      1.5.2
 // @description  在飞书多维表格页面批量将「图片」列 URL 下载并上传为「附件」列图片（支持 UI 配置与本地保存）
 // @author       xlgmuteki3-boop
+// @license      MIT
 // @match        *://*.feishu.cn/base/*
 // @match        *://*.feishu.cn/wiki/*
 // @grant        GM_xmlhttpRequest
